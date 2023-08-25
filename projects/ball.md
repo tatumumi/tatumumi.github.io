@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ball.png
+image: img/Screen Shot 2023-08-25 at 9.17.52 AM.png
 title: "Bouncing a Ball"
 date: 2023 
 published: true
