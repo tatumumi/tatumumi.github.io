@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Supernova.jpeg
+image: img/STScI-01EVTA34C19C9A91CDPTB70GNS.jpeg
 title: "Finding Supernovae"
 date: 2023
 published: true
