@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/Supernova.jpeg
 title: "Finding Supernovae"
 date: 2023
 published: true
