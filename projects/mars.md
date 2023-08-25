@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/Ship3D.png
 title: "Mission to Mars"
 date: 2023
 published: true
