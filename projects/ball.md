@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/BouncingBallFig (1) (1).png
 title: "Bouncing a Ball"
 date: 2023
 published: true
