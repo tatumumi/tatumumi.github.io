@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/ball.png
 title: "Bouncing a Ball"
-date: 2023
+date: 2023 
 published: true
 labels:
   - Physics 
