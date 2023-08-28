@@ -13,6 +13,7 @@ summary: "My mentor and I trained a convolutional neural network (CNN) to spot s
 Cosmological Simulations."
 ---
 <img class="text-center p-4" width="400px" src="../img/STScI-01EVTA34C19C9A91CDPTB70GNS.jpeg">
+
 Supernovae are luminous explosions of stars that can be seen billions of light years away. 
 Scientists study these events to learn more about the history and expansion of the universe. 
 The James Webb Space Telescope (JWST) was launched on December 25, 2021 and with its large 6.5-meter 
