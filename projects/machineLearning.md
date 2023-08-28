@@ -23,17 +23,16 @@ Here we trained a convolutional neural network (CNN) to spot supernovae on mock 
 Simulations. We generated two nearly identical sets of mock images, with and without noise. For every image in 
 each set, we created four copies with different NIRCam bandpass filters (F115W, F150W, F277W, F444W). 
 The presence and positions of the planted supernovae were randomly chosen, but consistent between each copy. 
-For a sanity check, we use the set without noise as an idealized test. With the noise set, we found that 
-the neural network identified planted supernovae with a 0.98 accuracy, identified a supernova when one was 
-not planted with a 0.2 accuracy, did not identify a planted supernova with a 0.2 accuracy, and did not identify 
-a supernova when one was not planted with a 0.98 accuracy. The results suggest the network is efficient, with 
-little inaccuracies. We plan to succeed this project and use the network on real data from the COSMOS survey 
-by JWST, to streamline our ability to spot the most distant supernovae.
+For a sanity check, we use the set without noise as an idealized test (data for images without noise is not given). 
 
 <img class="text-center p-4" width="400px" src="../img/Screen Shot 2023-04-30 at 11.56.28 AM.png">
+
+
 In this figure, the numbers above each image contain information regarding whether a supernova was planted or not and the network’s best guess at if one was present. The right-most number indicates if a supernova was planted on the image. The number 0 indicates that no supernova was planted and the number 1 indicates that one was. The left-most number represents the network’s prediction of there being a supernova. Values closer to 1 tell us that the network found a higher probability of there being a supernova, while smaller numbers indicate a lower probability.
 
 <img class="text-center p-4" width="400px" src="../img/Screen Shot 2023-08-27 at 6.57.19 PM.png">
+
+
 Here we display the efficiency of our CNN in a confusion matrix. We found that our network did not identify a supernova when none was planted with a 0.98 percent accuracy (top right), identified a supernova when none was planted with a 0.02 percent accuracy (top left), did not identify a supernova when one was planted with a 0.02 percent accuracy (bottom right corner) and finally did identify a supernova when one was planted (bottom left). Our results do suggest that the network is efficient at spotting supernovae on images of galaxies.
 
 
