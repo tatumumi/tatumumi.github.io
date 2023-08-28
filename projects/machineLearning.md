@@ -12,7 +12,7 @@ labels:
 summary: "My mentor and I trained a convolutional neural network (CNN) to spot supernovae on mock JWST data from Vela
 Cosmological Simulations."
 ---
-<img class="img-fluid" src="Screen Shot 2023-04-30 at 11.56.28 AM.png">
+<img class="text-center p-4" src="Screen Shot 2023-04-30 at 11.56.28 AM.png">
 
 
 Supernovae are luminous explosions of stars that can be seen billions of light years away. 
