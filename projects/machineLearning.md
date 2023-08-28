@@ -30,7 +30,7 @@ For a sanity check, we use the set without noise as an idealized test (data for 
 
 In this figure, the numbers above each image contain information regarding whether a supernova was planted or not and the network’s best guess at if one was present. The right-most number indicates if a supernova was planted on the image. The number 0 indicates that no supernova was planted and the number 1 indicates that one was. The left-most number represents the network’s prediction of there being a supernova. Values closer to 1 tell us that the network found a higher probability of there being a supernova, while smaller numbers indicate a lower probability.
 
-<img class="text-center p-4" width="400px" src="../img/Screen Shot 2023-08-27 at 6.57.19 PM.png">
+<img class="text-center p-4" width="450px" src="../img/Screen Shot 2023-08-27 at 6.57.19 PM.png">
 
 
 Here we display the efficiency of our CNN in a confusion matrix. We found that our network did not identify a supernova when none was planted with a 0.98 percent accuracy (top right), identified a supernova when none was planted with a 0.02 percent accuracy (top left), did not identify a supernova when one was planted with a 0.02 percent accuracy (bottom right corner) and finally did identify a supernova when one was planted (bottom left). Our results do suggest that the network is efficient at spotting supernovae on images of galaxies.
