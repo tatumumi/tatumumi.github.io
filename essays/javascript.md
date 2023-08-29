@@ -7,7 +7,7 @@ date: 2023-08-29
 published: true
 labels:
   - Javascript
-  - Learning
+  - Athletic Software Enigeering
 ---
 
 <img width="400px" class="rounded float-start pe-4" src="../img/im.png">
