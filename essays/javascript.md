@@ -21,11 +21,13 @@ So far, I think that javascript is like a second cousin to languages like java a
 
 ## Why is Javascript Different?
 
-The most interesting difference between javascript and the other languages I know is how it handles functions. In javascript "functions are first class", meaning that they can be treated like variables or a data type. This way of handling functions allows them to be generated dynamically at runtime and enables a more concise/simple way to use functions. Some other differences between javascript and other programming languages are that heterogeneous collections are allowed (collections may have multiple data types within them) and objects are equivalent to JSON (JSON strings are javascript objects). These key differences and many others make javascript a very efficent and attractive language for coding web applications.
+The most interesting difference between javascript and the other languages I know is how it handles functions. In javascript "functions are first class", meaning that they can be treated like variables or a data type. This way of handling functions allows them to be generated dynamically at runtime and enables a more concise/simple way to use functions. Some other differences between javascript and other programming languages are that heterogeneous collections are allowed (collections may have multiple data types within them) and objects are equivalent to JSON (JSON strings are javascript objects). These key differences and many others make javascript a very efficent and attractive language for software development. 
 
 <img width="400px" class="rounded float-start pe-4" src="../img/sport.jpeg">
 
 ## Athletic Software Engineering 
 
 Does practice make perfect? Yes...well almost perfect! I believe that if you dedicate time outside of class to practice the skills that you are learning, you will do and learn better in the future. Part of my confidence in this practice comes from my experience playing volleyball. Specifically, when I was just starting to play volleyball in elementary school learning how to serve the ball was the main focus of most the practices. After every practice our coach would tell us to practice tossing the ball for our serve 100 times at home. When we would come back to practice the following day we had to show our coach our toss and serve the ball. It was always obvious who had put in the work at home the previous day and who hadn't. 
+
+Like volleyball, programming in javascript requires skills that you have to practice to be successful. For this reason I find the practice WODs (workout of the day) to be very useful. They provide us the opportunity to practice our programming and critical thinking skills at home before we are tested, like practicing before a game. 
 
