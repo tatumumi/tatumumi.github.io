@@ -36,4 +36,5 @@ In this figure, the numbers above each image contain information regarding wheth
 
 Here we display the efficiency of our CNN in a confusion matrix. We found that our network did not identify a supernova when none was planted with a 0.98 percent accuracy (top right), identified a supernova when none was planted with a 0.02 percent accuracy (top left), did not identify a supernova when one was planted with a 0.02 percent accuracy (bottom right corner) and finally did identify a supernova when one was planted (bottom left). Our results do suggest that the network is efficient at spotting supernovae on images of galaxies.
 
+This project is apart of the current research I am conducting with Dr. David Rubin. I got the opportunity to present these findings at the Undergraduate Showcase at the University of Hawaii at Manoa. 
 
