@@ -1,25 +1,25 @@
 ---
 layout: essay
 type: essay
-title: "Is Javascript a Sport?"
+title: "Is JavaScript a Sport?"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-29
 published: true
 labels:
-  - Javascript
+  - JavaScript
   - Athletic Software Enigeering
 ---
 
 <img width="400px" class="rounded float-start pe-4" src="../img/im.png">
 
-## Introduction to Javascript 
+## Introduction to JavaScript 
 
 I am just embarking on my journey to learning JavaScript, and so far I am impressed. Coming into ICS 314 (Software Engineering)
 I have a strong background in coding in Python, C, C++, and Java. The first language I was introduced to was Java. I found this language 
 very hard to learn as the syntax and hierarchy rules are rigid. However, after two semesters of coding in Java I found learning other languages (C, C++, and Python) to be much easier. I am the most comfortable with programming in Python, as I use it very often in my astronomy courses and my research. 
 So far, I think that javascript is like a second cousin to languages like Java and Python, it is similar but has a few different characteristics. 
 
-## Why is Javascript Different?
+## Why is JavaScript Different?
 
 The most interesting difference between JavaScript and the other languages I know is how it handles functions. In javascript "functions are first class", meaning that they can be treated like variables or a data type. This way of handling functions allows them to be generated dynamically at runtime and enables a more concise/simple way to use functions. Some other differences between javascript and other programming languages are that heterogeneous collections are allowed (collections may have multiple data types within them) and objects are equivalent to JSON (JSON strings are javascript objects). These key differences and many others make JavaScript a very efficient and attractive language for software development. 
 
