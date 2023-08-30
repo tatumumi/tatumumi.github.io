@@ -29,7 +29,7 @@ of main solar system planets using the Runge-Kutta method and compute their grav
 laws of motion and universal gravitation. We finally map the trajectory of SpaceX's Starship in a round-trip flyby
 mission to Mars using the Runge-Kutta method and the suggested parameters. 
 
-<img width="400px" class="rounded float-start pe-4" src="../img/Ship3D.png">
+<img class="text-center p-4" width="500px"  src="../img/Ship3D.png">
 
 This project served as my final creative project for my computational physics class (PHYS 305). Though I found this project very difficult to complete, I learned many scientific computing skills in the process. For example I learned how to use the Runge-Kutta method to find the trajectory of a projectile in space. I also gained experience using resources like the NASA Jet Propulsion Laboratory's (JPL) Horizons Systems ephemeris tool and NASA Ames Research Center's Trajectory Search.
 
