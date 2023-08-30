@@ -6,7 +6,7 @@ title: "Bouncing a Ball"
 date: 2023 
 published: true
 labels:
-  - Physics  
+  - Physics   
   - Python
 summary: "I modeled the trajectory of a bouncing ball using the equations of motion, initial conditions, and
 the ball’s coefficient of restitution."
