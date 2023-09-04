@@ -4,7 +4,7 @@ type: essay
 title: "Good Questions Atrract Good Answers"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-05
-published: false
+published: true
 labels:
   - Questions
   - Answers
