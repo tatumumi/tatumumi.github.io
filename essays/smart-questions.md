@@ -11,13 +11,13 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/question.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/question.png">
 
 ## What makes a "good" question in software engineering?
 
 One of a student's worst fear is asking their professor a question, just to be reminded that their question was "ignorant" or "lazy". Even as a senior in college, I am afraid of looking "un-intelligent" to my peers and mentors. This fear of mine influences me to "think before I speak" or "think before I ask". 
 
-The idea of formulating a clear, intelligent and confident question before asking someone is heavily encouraged in software engineering. Questions that are regarded as "good" are characterized by:
+The idea of formulating a clear, intelligent and confident question before asking someone is heavily encouraged in software engineering. Asking "good" or "smart" questions on appropiate forums can lead to more insightful and helpful answers from tech professionals. Questions that are regarded as "good" are characterized by:
 
 - meaningful subject specific headers
 - grammatically sound
@@ -26,9 +26,11 @@ The idea of formulating a clear, intelligent and confident question before askin
 - accessible
 - respectful
 
-In addition to forming a "good" question it is important to choose an appropriate forum to ask it. 
+In addition to forming a "good" question it is important to choose an effective forum to ask it. Depending on the subject matter of the question it should or should not be posted on a specific forum. For example, cites like Stack Overflow deal with programming questions. A good rule of thumb when deciding on which forum to post your question on is to look at what kind of questions have already been posted (and even at how many responses each post recieved).
 
 ## What is a "bad" question?
+
+Since there are "good" questions, there must exist "bad" questions. Growing up I was fed the idea that there was no such thing as a "bad" question. Any and all questions were encouraged to provoke discussion and 
 
 ## What’s a smart question?
 
