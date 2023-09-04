@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/question.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/question.png">
 
 ## What makes a "good" question in software engineering?
 
