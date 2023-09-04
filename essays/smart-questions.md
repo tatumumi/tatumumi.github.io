@@ -43,17 +43,15 @@ Since there are "good" questions, there must exist "bad" questions. Growing up I
 
 ## Examples:
 
-# A "good" question:
+### A "good" question:
 
 ```
 Q: What is the most efficient way to deep clone an object in JavaScript?
 
-What is the most efficient way to clone a JavaScript object? I've seen obj = eval(uneval(o)); being used, but
-
-that's non-standard and only supported by Firefox.
+What is the most efficient way to clone a JavaScript object? I've seen obj = eval(uneval(o));
+being used, but that's non-standard and only supported by Firefox.
 
 I've done things like obj = JSON.parse(JSON.stringify(o)); but question the efficiency.
-
 I've also seen recursive copying functions with various flaws.
 
 I'm surprised no canonical solution exists.
