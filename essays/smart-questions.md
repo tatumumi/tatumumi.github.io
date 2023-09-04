@@ -15,57 +15,49 @@ labels:
 
 ## What makes a "good" question in software engineering?
 
-One of a student's worst fear is asking their professor a question, just to be reminded that their question was "ignorant" or "lazy". Even as a senior in college, I am afraid of looking "un-intelligent" to my peers and mentors. This fear of mine influences me to "think before I speak" or "think before I ask". 
+One of a student's worst fears is asking their professor a question, just to be reminded that their question was "ignorant" or "lazy". Even as a senior in college, I am afraid of looking "unintelligent" to my peers and mentors. This fear of mine influences me to "think before I speak" or "think before I ask". 
 
-The idea of formulating a clear, intelligent and confident question before asking someone is heavily encouraged in software engineering. Asking "good" or "smart" questions on appropiate forums can lead to more insightful and helpful answers from tech professionals. Questions that are regarded as "good" are characterized by:
+The idea of formulating a clear, intelligent, and confident question before asking someone is heavily encouraged in software engineering. Asking "good" or "smart" questions on appropriate forums can lead to more insightful and helpful answers from tech professionals. Questions that are regarded as "good" are characterized by:
 
-- meaningful subject specific headers
+- meaningful subject-specific headers
 - grammatically sound
-- clear description of problem (in chronological order)
+- a clear description of the problem (in chronological order)
 - concise
 - accessible
 - respectful
+- etc..
 
-In addition to forming a "good" question it is important to choose an effective forum to ask it. Depending on the subject matter of the question it should or should not be posted on a specific forum. For example, cites like Stack Overflow deal with programming questions. A good rule of thumb when deciding on which forum to post your question on is to look at what kind of questions have already been posted (and even at how many responses each post recieved).
+In addition to forming a "good" question, it is important to choose an effective forum to ask it. Depending on the subject matter of the question it should or should not be posted on a specific forum. For example, sites like Stack Overflow deal with programming questions. A good rule of thumb when deciding on which forum to post your question on is to look at what kind of questions have already been posted (and even at how many responses each post received).
 
 ## What is a "bad" question?
 
-Since there are "good" questions, there must exist "bad" questions. Growing up I was fed the idea that there was no such thing as a "bad" question. Any and all questions were encouraged to provoke discussion and 
+Since there are "good" questions, there must exist "bad" questions. Growing up I was fed the idea that there was no such thing as a "bad" question. Any/all questions were encouraged to provoke discussion and understanding. However, when it comes to ask-and-answer forums like Stack Overflow, "bad" questions do exist. 
+(When I say "bad" questions I do not necessarily mean bad rather that the question is bad but "lazy" or "inappropriate".) Questions like these usually are:
 
-## What’s a smart question?
+- too simple (can be looked up easily)
+- too lengthy
+- disrespctful (requests "Urgent" response)
+- unclear
+- irrelevant to the web forum
+- etc..
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+## Examples:
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+# A "good" question:
 
 ```
-Q: python date of the previous month
+Q: What is the most efficient way to deep clone an object in JavaScript?
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+What is the most efficient way to clone a JavaScript object? I've seen obj = eval(uneval(o)); being used, but
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+that's non-standard and only supported by Firefox.
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+I've done things like obj = JSON.parse(JSON.stringify(o)); but question the efficiency.
 
-I have solved this trouble in bash with:
+I've also seen recursive copying functions with various flaws.
 
-echo $(date -d"3 month ago" "+%G%m%d")
+I'm surprised no canonical solution exists.
 
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
 ```
 
 While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
