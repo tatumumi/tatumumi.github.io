@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Good Questions Atrract Good Answers"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2023-09-05
 published: false
 labels:
   - Questions
@@ -11,11 +11,24 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/question.png">
 
-## Is there such thing as a stupid question?
+## What makes a "good" question in software engineering?
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+One of a student's worst fear is asking their professor a question, just to be reminded that their question was "ignorant" or "lazy". Even as a senior in college, I am afraid of looking "un-intelligent" to my peers and mentors. This fear of mine influences me to "think before I speak" or "think before I ask". 
+
+The idea of formulating a clear, intelligent and confident question before asking someone is heavily encouraged in software engineering. Questions that are regarded as "good" are characterized by:
+
+- meaningful subject specific headers
+- grammatically sound
+- clear description of problem (in chronological order)
+- concise
+- accessible
+- respectful
+
+In addition to forming a "good" question it is important to choose an appropriate forum to ask it. 
+
+## What is a "bad" question?
 
 ## What’s a smart question?
 
