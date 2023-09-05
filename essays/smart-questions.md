@@ -66,15 +66,14 @@ This question is a perfect example of what tech professionals in software engine
 Q: what's wrong with this sql query?
 
 Okay I have two variables in PHP
-```
 $username;
 $password;
-```
+
 which are initialized to the data retrieved from $_POST variable :)
 
 I have this SQL query
 
-```$sql = "SELECT * FROM users WHERE username = '" . $username . "' AND password = '" . $password . "')";```
+$sql = "SELECT * FROM users WHERE username = '" . $username . "' AND password = '" . $password . "')";
 But this doesn't works and returns me nothing :(
 
 Can you instruct me into the right direction. Please?
