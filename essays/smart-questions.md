@@ -57,8 +57,9 @@ I've also seen recursive copying functions with various flaws.
 I'm surprised no canonical solution exists.
 
 ```
-Why is this a "good" question?
-This question is a perfect example of what tech professionals in software engineering look to answer on web forums like Stack Overflow. The question is thought provoking and requires more thought than a simple google search or a reference to the documentation. Its title is concise and summerizes the question being asked. The enquirer also gives a specific description of his problem/question and even acknowledges answers he is already aware of. We can confrim how successful this question was by looking at the number of responses it recieved. This question attracted a lot of attention with 67 answers and most of them being lengthly/detailed responses.  
+[What is the most efficient way to deep clone an object in JavaScript?](https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript)
+
+This question is a perfect example of what tech professionals in software engineering look to answer on web forums like Stack Overflow. The question is thought provoking and requires more thought than a simple google search or a reference to the documentation. Its subject header is concise and summerizes the question being asked. The enquirer also gives a specific description of his problem/question and even acknowledges answers he is already aware of. We can confrim how successful this question was by looking at the number of responses it recieved. This question attracted a lot of attention with 67 answers and most of them being lengthly/detailed responses.  
 
 ### A "bad" question
 
@@ -78,9 +79,11 @@ But this doesn't works and returns me nothing :(
 
 Can you instruct me into the right direction. Please?
 ```
+[Whats wrong with this sql query](https://stackoverflow.com/questions/782488/whats-wrong-with-this-sql-query/782499#782499)
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+This question provides an example for what one should not post/ask, as the inquier should have done more prior research and reworded the question. Much of the responses to this Stack Overflow post refer the inquirer to resources and suggest they lack understanding of the subject. The question also lacks much of what a "good" question consists of. The subject header is not specific and does not give an indication of the problem. Additionally the inquier asks for instruction when alternate resources could have been used to solve their problem, as perscribed by the respondents. This question also recieved significantly less responses when compared to the "good" question, suggesting the communities disinterest.
 
 ## Conclusion
+As we have seen "thinking before you ask" is
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+
