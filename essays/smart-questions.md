@@ -84,6 +84,6 @@ Can you instruct me into the right direction. Please?
 This question provides an example of what one should not post/ask, as the inquirer should have done more prior research and reworded the question. Much of the responses to this Stack Overflow post refer the inquirer to resources and suggest they lack understanding of the subject. The question also lacks much of what a "good" question consists of. The subject header is not specific and does not indicate the problem. Additionally, the inquirer asks for instruction when alternate resources could have been used to solve their problem, as prescribed by the respondents. This question also received significantly fewer responses when compared to the "good" question, suggesting the communities disinterest.
 
 ## Conclusion
-As we have seen "thinking before you ask" is
+As we have seen "thinking before you ask" makes a difference when engaging with the online community. Making sure your question cannot just be answered with a Google search and then wording it in a concise, specific, and detailed manner before asking others increases your chances of getting a good response. While these guidelines for asking questions should be followed in online web forums, like Stack Overflow, they can also be used as a tool in everyday life. For example, making sure you have tried your absolute best at something before asking for help will prevent you from being viewed as lazy or ignorant. 
 
 
