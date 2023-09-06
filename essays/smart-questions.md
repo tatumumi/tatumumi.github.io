@@ -15,7 +15,7 @@ labels:
 
 ## What makes a "good" question in software engineering?
 
-One of a student's worst fears is asking their professor a question, just to be reminded that their question was "ignorant" or "lazy". Even as a senior in college, I am afraid of looking "unintelligent" to my peers and mentors. This fear of mine influences me to "think before I speak" or "think before I ask". 
+One of a student's worst fears is asking their professor a question, just to be reminded that their question was "ignorant" or "lazy". Even as a senior in college, I am afraid of looking "unintelligent" to my peers and mentors. This fear I have causes me to "think before I speak" or "think before I ask". 
 
 The idea of formulating a clear, intelligent, and confident question before asking someone is heavily encouraged in software engineering. Asking "good" or "smart" questions on appropriate forums can lead to more insightful and helpful answers from tech professionals. Questions that are regarded as "good" are characterized by:
 
@@ -23,7 +23,6 @@ The idea of formulating a clear, intelligent, and confident question before aski
 - grammatically sound
 - a clear description of the problem (in chronological order)
 - concise
-- accessible
 - respectful
 - etc.
 
@@ -31,11 +30,11 @@ In addition to forming a "good" question, it is important to choose an effective
 
 ## What is a "bad" question?
 
-Since there are "good" questions, there must exist "bad" questions. Growing up I was fed the idea that there was no such thing as a "bad" question. Any/all questions were encouraged to provoke discussion and understanding. However, when it comes to ask-and-answer forums like Stack Overflow, "bad" questions do exist. 
+Since there are "good" questions, there must exist "bad" questions. Growing up I was led to believe that there was no such thing as a "bad" question. Any/all questions were encouraged to provoke discussion and understanding. However, when it comes to ask-and-answer forums like Stack Overflow, "bad" questions do exist. 
 (When I say "bad" questions I do not necessarily mean the question is bad but rather that it is "lazy" or "inappropriate".) Questions like these usually are:
 
 - too simple (can be looked up easily)
-- too lengthy
+- too many issues/ topics brought up in one question
 - disrespectful (requests "Urgent" response)
 - unclear
 - irrelevant to the web forum
@@ -81,7 +80,7 @@ Can you instruct me into the right direction. Please?
 ```
 [Whats wrong with this sql query?](https://stackoverflow.com/questions/782488/whats-wrong-with-this-sql-query/782499#782499)
 
-This question provides an example of what one should not post/ask, as the inquirer should have done more prior research and reworded the question. Much of the responses to this Stack Overflow post refer the inquirer to resources and suggest they lack understanding of the subject. The question also lacks much of what a "good" question consists of. The subject header is not specific and does not indicate the problem. Additionally, the inquirer asks for instruction when alternate resources could have been used to solve their problem, as prescribed by the respondents. This question also received significantly fewer responses when compared to the "good" question, suggesting the communities disinterest.
+This question provides an example of what one should not post/ask, as the inquirer should have done more prior research and reworded the question. Much of the responses to this Stack Overflow post refer the inquirer to resources and suggest they lack understanding of the subject. The question also lacks much of what a "good" question consists of. The subject header is not specific and does not indicate the problem. Additionally, the inquirer asks for instruction when alternate resources could have been used to solve their problem, as prescribed by the respondents. This question also received significantly fewer responses when compared to the "good" question, suggesting the community's disinterest.
 
 ## Conclusion
 As we have seen "thinking before you ask" makes a difference when engaging with the online community. Making sure your question cannot just be answered with a Google search and then wording it in a concise, specific, and detailed manner before asking others increases your chances of getting a good response. While these guidelines for asking questions should be followed in online web forums, like Stack Overflow, they can also be used as a tool in everyday life. For example, making sure you have tried your absolute best at something before asking for help will prevent you from being viewed as lazy or ignorant. 
