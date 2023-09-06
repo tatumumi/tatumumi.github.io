@@ -84,5 +84,6 @@ This question provides an example of what one should not post/ask, as the inquir
 
 ## Conclusion
 As we have seen "thinking before you ask" makes a difference when engaging with the online community. Making sure your question cannot just be answered with a Google search and then wording it in a concise, specific, and detailed manner before asking others increases your chances of getting a good response. While these guidelines for asking questions should be followed in online web forums, like Stack Overflow, they can also be used as a tool in everyday life. For example, making sure you have tried your absolute best at something before asking for help will prevent you from being viewed as lazy or ignorant. 
+Lastly, not only is asking "good" questions helpful for yourself but it also positively impacts the whole online community. Whenever I run into issues that I have to look up online, I always look for posts that have detailed/ clear responses. The questions on these posts usually follow what we have described as a "good" question. 
 
 
