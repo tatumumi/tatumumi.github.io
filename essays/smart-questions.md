@@ -78,7 +78,7 @@ But this doesn't works and returns me nothing :(
 
 Can you instruct me into the right direction. Please?
 ```
-[Whats wrong with this sql query?](https://stackoverflow.com/questions/782488/whats-wrong-with-this-sql-query/782499#782499)
+[What's wrong with this sql query?](https://stackoverflow.com/questions/782488/whats-wrong-with-this-sql-query/782499#782499)
 
 This question provides an example of what one should not post/ask, as the enquirer should have done more prior research and reworded the question. Much of the responses to this Stack Overflow post refer the enquirer to resources and suggest they lack understanding of the subject. The question also lacks much of what a "good" question consists of. The subject header is not specific and does not indicate the problem. Additionally, the enquirer asks for instruction when alternate resources could have been used to solve their problem, as prescribed by the respondents. This question also received significantly fewer responses when compared to the "good" question, suggesting the community's disinterest.
 
