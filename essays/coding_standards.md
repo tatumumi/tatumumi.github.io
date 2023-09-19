@@ -4,7 +4,7 @@ type: essay
 title: "Set High Standards"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-20
-published: false
+published: true
 labels:
   - Coding Standards
   - ESLint
