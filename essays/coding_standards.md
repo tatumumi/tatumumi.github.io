@@ -11,7 +11,7 @@ labels:
   - IntelliJ
 ---
 
-<img width="400px" src="../img/coding.png">
+<img width="400px" class="text-center p-4" src="../img/coding.png">
 
 ## Why Have Coding Standards?
 
