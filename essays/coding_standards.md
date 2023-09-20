@@ -15,7 +15,15 @@ labels:
 
 ## Why Have Coding Standards?
 
-Have you ever looked over a colleague's or a peer's code and been completely disoriented because their work was not organized like yours? This is why having and following coding standards is important. Coding Standards provide us with guidelines and techniques to write code, making it more readable and efficient. So when you look over someone else's, or even your own, work you feel confident in what you're reading.
+Have you ever looked over a colleague's or a peer's code and been completely disoriented because their work was not organized like yours? Maybe they didn't use enough spaces between sections of their code and you can't read it easily. Or possibly they didn't indent their lines of code correctly and you can't identify where their functions or statements end. This is why having and following coding standards is important. They specifically help with:
+
+- a uniform appearance to codes
+- readability and maintainability
+- code reuse
+- efficiency
+- etc.
+
+So when you look over someone else's, or even your own, code you feel confident in what you're reading.
 
 ## Working with Coding Standards in IntelliJ
 <img width="200px" class="text-center p-4" align="left" src="../img/Screen Shot 2023-09-18 at 7.07.43 PM.png">
