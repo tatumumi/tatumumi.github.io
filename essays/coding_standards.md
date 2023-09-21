@@ -23,7 +23,7 @@ Have you ever looked over a colleague's or a peer's code and been completely dis
 - efficiency
 - etc.
 
-So when you look over someone else's code or even your own, you feel confident in what you're reading
+So when you look over someone else's code or even your own, you feel confident in what you're reading.
 
 ## Working with Coding Standards in IntelliJ
 <img width="200px" class="text-center p-4" align="left" src="../img/Screen Shot 2023-09-18 at 7.07.43 PM.png">
