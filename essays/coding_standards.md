@@ -23,11 +23,11 @@ Have you ever looked over a colleague's or a peer's code and been completely dis
 - efficiency
 - etc.
 
-So when you look over someone else's, or even your own, code you feel confident in what you're reading.
+So when you look over someone else's code or even your own, you feel confident in what you're reading
 
 ## Working with Coding Standards in IntelliJ
 <img width="200px" class="text-center p-4" align="left" src="../img/Screen Shot 2023-09-18 at 7.07.43 PM.png">
-Before I was introduced to software engineering I did not consistently apply coding standards to all my projects. One could say that I only followed certain coding guidelines if I knew my grade depended on it. Otherwise, I wouldn't care what my code looked like, just if it worked. While I am sometimes lazy with my code, I do appreciate consistency, correctness, and readability.
+Before I was introduced to software engineering I did not consistently apply coding standards to all my class projects. One could say that I only followed certain coding guidelines if I knew my grade depended on it. Otherwise, my main concern was not what my work looked like, but if it was correct. This is most apparent in my astronomy courses. Since most of the code we write is private (not meant to be shared), the appearance of our programs does not matter as much as its validity. However, in my research work (which is available to the public) making my code organized and efficient is critical. Therefore, even though following coding standards is not my top priority sometimes, I do appreciate consistency, correctness, and readability.
 
 <img width="200px" class="text-center p-4" align="right" src="../img/Screen Shot 2023-09-19 at 3.15.47 PM.png">
 
@@ -37,3 +37,4 @@ However, sometimes I feel as if ESLint does too much.  Often when I write code I
 
 ## Final Thoughts
 Overall, I welcome the use of coding standards in programming, despite how exact and tedious they may be. I think it is essential to be able to write readable, consistent, and efficient code to be a successful programmer. I also believe that following coding standards, specifically those ESLint imposes, will help me learn the JavaScript language better. Like when you're using any word processing feature to check the grammar or spelling of your writing, after a while you will start to remember the suggestions it gives you. Eventually, you won't make the same mistakes and therefore will have learned something about the rules that govern the language. This is exactly what I have found to be true with using ESLint. It just takes practice and patience!
+
