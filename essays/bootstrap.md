@@ -36,3 +36,5 @@ The first two WODs we were assigned required us to create web pages based on a s
 <img width="500px" class="text-center p-4" src="../img/Screen Shot 2023-10-03 at 7.53.44 PM.png" alt="rem">
 <em>Remake</em>
 </p>
+
+After completing the third and final WOD, I found myself to be confident in my ability to implement various features and layouts. Being able to produce a sophisticated web page is 
