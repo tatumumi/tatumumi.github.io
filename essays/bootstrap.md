@@ -14,7 +14,7 @@ labels:
 
 
 ## What is a User Interface (UI) Framework?
-A UI framework is a collection of pre-built components, libraries, and design elements. These frameworks offer ready-to-use features like buttons, icons, forms, menus, cards, and layout templates. Some popular UI frameworks include Bootstrap, Django, React, Angular, and Semantic-UI. There are various appeals to using UI frameworks:
+A UI framework is a collection of pre-built components, libraries, and design elements. These frameworks offer ready-to-use features like buttons, icons, forms, menus, cards, and layout templates. Some popular UI frameworks include Bootstrap, React, Angular, and Semantic-UI. There are various appeals to using UI frameworks:
 
 - professional appearance to site/app
 - nicely designed UI components
@@ -38,7 +38,7 @@ The first two WODs we were assigned required us to create web pages based on a s
 <em>Remake</em>
 </p>
 
-After completing the third and final WOD, I am confident in my ability to implement various features and layouts. I am also thankful for what Bootstrap helps me create. I do not think I would have been able to create such a sophisticated web page without it. 
+After completing the third and final WOD, I am confident in my ability to implement various features and layouts. I am also thankful for what Bootstrap helps me create; I do not think I would have been able to create such a sophisticated web page without it. 
 
 ## Final Thoughts
-I think that using a UI framework is very advantageous for beginner software developers. They provide you with tools to create complicated sites in a relatively short amount of time. However, I do see where frameworks may restrict what one can do with their websites. Writing your own HTML and CSS code provides you with more artistic freedom. I am new to software development, so I am not worried about this limitation yet. But in the future, with more practice, I think it may be nice to part with frameworks for the sake of creativity. 
+I think that using a UI framework is very advantageous for beginner software developers. They provide you with tools to create complicated sites in a relatively short amount of time. With more practice, I think using a combination of your own CSS code with Bootstrap would be favorable. This way you can create sites with your own artistic vision in an efficient way. 
