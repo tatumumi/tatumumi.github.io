@@ -31,10 +31,10 @@ My experience with these WODs was, to be frank, quite complicated. I found learn
 The first two WODs we were assigned required us to create web pages based on a set of parameters and a reference image. I found these exercises to be rather difficult initially as it was hard to get the layout of the page exactly correct. That said, I took more time than I wanted to during my first attempt at both WODs. However, after referencing sample code, I was able to complete both WODs in a timely manner. The third WOD asked us to choose a web page and re-create it to the best of our ability. For this assignment I chose to reproduce the [Bishop Museum's](https://www.bishopmuseum.org/) website. Coming into this WOD, I wont lie, was very intimidating. I was unsure if I could replicate the sites layout and small details. But with focus and reference to the Bootstrap documentation, I was able to replicate it as best I could. 
 
 <p>
-<img width="500px" class="text-center p-4" src="../img/Screen Shot 2023-10-03 at 7.55.20 PM.png" alt="og">
+<img width="700px" class="text-center p-4" src="../img/Screen Shot 2023-10-03 at 7.55.20 PM.png" alt="og">
 <em>Original Version</em>
-<img width="500px" class="text-center p-4" src="../img/Screen Shot 2023-10-03 at 7.53.44 PM.png" alt="rem">
+<img width="700px" class="text-center p-4" src="../img/Screen Shot 2023-10-03 at 7.53.44 PM.png" alt="rem">
 <em>Remake</em>
 </p>
 
-After completing the third and final WOD, I found myself to be confident in my ability to implement various features and layouts. Being able to produce a sophisticated web page is 
+After completing the third and final WOD, I am confident in my ability to implement various features and layouts. I am also thankful for what Bootstrap helps me create. I do not think I would have been able to create such a sophisticated web page without it. 
