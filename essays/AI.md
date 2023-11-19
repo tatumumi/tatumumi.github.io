@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Today's Calculator is AI"
 # All dates must be YYYY-MM-DD format!
-date: 2023-10-04
+date: 2023-11-20
 published: true
 labels:
   - AI in education
