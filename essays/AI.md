@@ -47,7 +47,8 @@ When I have a question I try my best to first answer it on my own using document
 I have never asked or answered a smart-question on the Discord before in ICS 314, so I can offer no personal experience on the use of AI here. By observation of the types of questions asked in Discord, I do not think AI would be useful in answering these kinds of questions. This is due to the fact most of the questions asked relate to errors in the instructions given for an assignment or the way one has configured their computer. The best answers for these inquires come from instructors or other student who have encountered the same problem. 
 #### Coding example
 In my experience, Chat GPT was very useful when writing bulk code that I could alter to what I wanted to do. For example, I could ask GPT to "give me code for an example form using meteor react bootstrap" and I would get back an outline of what a form should look like.
-```import React, { useState } from 'react';
+```
+import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { Envelope, Person } from 'react-bootstrap-icons';
 
