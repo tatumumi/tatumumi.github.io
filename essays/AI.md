@@ -10,7 +10,7 @@ labels:
   - Software Engineering
   
 ---
-<img width="600px" alt="photo" class="rounded float-start pe-4" src="../img/AI_photo.jpeg">
+<img width="600px" alt="photo" class="text-center p-4" src="../img/AI_photo.jpeg">
 
 ## Introduction
 ### AI the New Calculator
