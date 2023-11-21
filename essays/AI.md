@@ -181,13 +181,16 @@ The intention of including AI in each of these applications is to improve the ex
 As exciting and innovative as the use of AI is in these areas, it can be kind of scary or unreliable. Facial recognition technology is a great example of where AI can go wrong. For example, security breaches with facial recognition can increase the risk of identity theft, stalking, and harassment.
 
 ## Challenges and Opportunities
-While I have found AI to be very helpful for ICS 314 I do wish it had better accuracy. Sometimes I found myself spending more time telling Chat GPT what to do than it would take me to do it myself. Another challenge I faced, and probably the largest one, was a moral one. I would be lying if I said I didn't feel guilty when I was using Chat GPT to solve a problem. In academia, it has always been frowned upon to look up the answers and AI does just this. I have not yet been able to get over this guilt I have using AI, but I hope that over time using AI will become more normalized so I don't feel this way.
+While I have found AI to be very helpful for ICS 314 I do wish it had better accuracy. Sometimes I found myself spending more time telling Chat GPT what to do than it would take me to do it myself. A good analogy for this is the time difference between solving a problem and trying to teach someone how to solve it for you, it takes way longer. I have also experienced challenges getting valuable responses from AI for other courses. For example, if I give the AI a mathematical expression to solve, it will sometimes make up random numbers which throws off the answer. The final challenge I faced, and probably the largest one, was a moral challenge. I would be lying if I said I didn't feel guilty when I was using Chat GPT to solve a problem. In academia, it has always been frowned upon to look up the answers and AI does just this. I have not yet been able to get over this guilt I have using AI, but I hope that over time using AI will become more normalized so I don't feel this way.
 
+
+Despite the challenges I experienced using AI, I do think that it can be very valuable in software engineering education. I think using AI to summarize or explain complicated instructions and code can be very useful. In this way, students can check or aid their understanding of the material without asking their professor or TA.
 
 
 ## Comparative Analysis
+The teaching method that was adapted for my ICS 314 course focuses on practicing athletic software engineering. For this teaching methodology, students are required to read articles/documentation and then complete work-out-of-the-days or WODs. This forces students to constantly practice skills so that they become second nature. AI poses a small threat to this methodology because if AI can give you the answers then why practice? Students may feel as if they don't have to read the documentation or repeat as many WODs as they should because they will have AI to help them.
 
 ## Future Considerations
-
+An issue I experienced with AI is that I would have to give very specific instructions with sometimes multiple pages of code to get a decent answer. A possible solution is to be able to upload multiple files of code to an AI so it can produce a valuable response.
 ## Conclusion
-
+AI is here and will probably never go away, so we have to adjust. My experience with AI in ICS 314 was very positive and I would recommend others to utilize it as well. However, I do think that there should be guidelines or rules set in place regarding its usage. For example, referencing AI for comprehension rather than for writing code may be more beneficial for a student long term.
