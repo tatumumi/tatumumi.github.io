@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Today's Calculator is AI"
+title: "AI is the New Calculator"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-20
 published: true
@@ -13,7 +13,7 @@ labels:
 <img width="600px" alt="photo" class="text-center p-4" src="../img/AI_photo.jpeg">
 
 ## Introduction
-### AI the New Calculator
+### AI is the New Calculator
 
 Some have compared the use of AI in education to the use of a calculator in a classroom. Before calculators, people solved math problems either by hand or using devices, like an Abacus, Mechanical Slide Rule, and Napier's Bones. The process of solving an equation during this time was undoubtedly more cumbersome than using a calculator. For example, a complex math expression can be solved in seconds today using a calculator but would take minutes to hours without one.
 
