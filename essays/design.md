@@ -29,7 +29,7 @@ These patterns focus on class instantiation or object creation. They can be brok
 ### 2. Structural Design Patterns
 These patterns organize different classes and objects to create larger structures with new functionality. They aim to optimize the functionality of the classes involved without heavily altering their composition. Structural design patterns include Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Private Class Data, and Proxy.
 
-### Behavioral Design Patterns
+### 3. Behavioral Design Patterns
 These patterns identify common communication patterns amongst objects. Behavioral design patterns include Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Null, Object, Observer, State, Strategy, Template method, and Visitor.
 
 # My Experience Using Design Patterns
