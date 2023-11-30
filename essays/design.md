@@ -14,7 +14,7 @@ labels:
 
 A design pattern "describes a problem that occurs over and over again in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice" - Christopher Alexander, 1977
 
-# Design Patters
+# Design Patterns
 
 In software engineering, a design pattern is meant to explain a general design solution to a recurring design problem in object-oriented programming. It identifies the design issue, its solution, when it's needed, and its consequences. These patterns are well-tested design paradigms meant to speed up the development process, and make code more reusable/flexible.
 
