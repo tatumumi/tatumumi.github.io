@@ -18,16 +18,16 @@
     { "name": "Data Science" },
     { "name": "Simulations" },
     { "name": "Astronomy" },
-    { "name": "Art" }
+    { "name": "Instrumentation" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "JavaScript","Python"]
+      "keywords": [ "C", "C++", "Java", "JavaScript","Python", "HTML", "CSS"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": ["Eclipse", "MacOS", "Git/GitHub", "Spyder", "Jupyter Notebook"]
+      "keywords": ["Eclipse", "MacOS", "Git/GitHub", "Spyder", "Jupyter Notebook", "IntelliJ"]
     }
   ],
   "education": [
@@ -52,6 +52,39 @@
   ],
   "work": [
     {
+      "company": "University of Hawaii at Manoa Athletics",
+      "position": "Academic Mentor/Tutor",
+      "website": "https://manoa.hawaii.edu/undergrad/saas/",
+      "startDate": "2023-09-01",
+      "endDate": "Present",
+      "summary": "Tutored student athletes in the subjects: math, chemistry, physics, computer science.",
+      "highlights": [
+        "Taught problem solving skills", "Content enrichment", "Communicating complex topics"
+      ]
+    },
+    {
+      "company": "University of Hawaii at Manoa",
+      "position": "Undergraduate Student Researcher",
+      "website": "",
+      "startDate": "2023-05-01",
+      "endDate": "Present",
+      "summary": "Student researcher under supervision of Dr. David Rubin.",
+      "highlights": [
+        "Machine Learning", "Supernova", "James Webb Space Telescope"
+      ]
+    },
+    {
+      "company": "University of Hawaii at Manoa",
+      "position": "Undergraduate Student Researcher",
+      "website": "",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "summary": "Student researcher under supervision of Dr. Joshua Barnes.",
+      "highlights": [
+        "Numerical simulations", "Disk galaxy mergers"
+      ]
+    },
+    {
       "company": "Diamond Head Health Bar",
       "position": "Barista/Cashier",
       "website": "",
@@ -68,15 +101,13 @@
       "title": "Manoa Dean's List",
       "date": "2020-Present",
       "awarder": "University of Hawaii at Manoa",
-      "summary": "Undergraduate student earns a semester grade point average of 3.5 or higher based on 12 credits or more and did 
-      not receive grades of W, I, F or NC."
+      "summary": "Undergraduate student earns a semester grade point average of 3.5 or higher based on 12 credits or more and did not receive grades of W, I, F or NC."
     },
     {
       "title": "Manoa Academic Merit Scholarship",
       "date": "2020-Present",
       "awarder": "University of Hawaii at Manoa",
-      "summary": "The Mānoa Academic Merit Scholarship is an automatic $3,000 per year scholarship for first-time, degree-seeking students who enroll at UH Mānoa 
-      the following Fall semester after high school graduation."
+      "summary": "The Mānoa Academic Merit Scholarship is an automatic $3,000 per year scholarship for first-time, degree-seeking students who enroll at UH Mānoa the following Fall semester after high school graduation."
     }
   ],
   "references": [
