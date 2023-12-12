@@ -32,7 +32,7 @@ There are a few concepts that I find particularly useful in software engineering
 
 ### Coding Standards
 
-Another valuable concept is coding standards. These standards play a crucial role in fostering the development of consistent, high-quality code, empowering programmers to write more efficient, cleaner, and readable software. The idea of implementing a set of rules that govern how something should be done is not new. For example, in literature knowledge of grammar and essay structure/organization enhances the effectiveness of written and spoken communication. I see myself using coding standards as long as I continue to write code. I hope one day these coding standards become as second nature to me as grammar does when writing an essay.
+Another valuable concept is coding standards. These standards play a crucial role in fostering the development of consistent, high-quality code, empowering programmers to write more efficient, cleaner, and readable software. The use of coding standards in collaborative projects is essential, each team member must adhere to a standard so others can easily build off of their work. The idea of implementing a set of rules that govern how something should be done is not new. For example, in literature knowledge of grammar and essay structure/organization enhances the effectiveness of written and spoken communication. I see myself using coding standards as long as I continue to write code. I hope one day these coding standards become as second nature to me as grammar does when writing an essay.
 
 
 
