@@ -10,7 +10,7 @@ labels:
   - Software Engineering
   
 ---
-<img width="600px" alt="photo" class="text-center p-4" src="https://cdn.prod.website-files.com/6344c9cef89d6f2270a38908/63f91940bd93ee3f919f577f_01%20How%20To%20Become%20A%20Software%20Engineer%20-%20Software%20Engineering.webp">
+<img width="600px" alt="photo" class="rounded float-start pe-4" src="https://cdn.prod.website-files.com/6344c9cef89d6f2270a38908/63f91940bd93ee3f919f577f_01%20How%20To%20Become%20A%20Software%20Engineer%20-%20Software%20Engineering.webp">
 
 ## Thoughts on Software Engineering
 
