@@ -4,7 +4,7 @@ type: essay
 title: "Introduction into Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-25
-published: true
+published: false
 labels:
   - Software Engineering
   - Learning
