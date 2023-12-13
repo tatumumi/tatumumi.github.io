@@ -11,7 +11,6 @@ labels:
   - Collaboration
 summary: "A team and I created this web application as a final project for our ICS 314 (Software Engineering I) course."
 ---
-# The Rainbow Gallery
 ## The Vision:
 The objective of the project was to create a public online space where UH students interested in art can share their work with other individuals. Here we provide students with an easy-to-use application that allows students to post pictures of their original work, like, comment, and follow other students.
 
@@ -21,23 +20,23 @@ As said in the project description, I worked as a part of a 4-person team in cre
 ## My Contribution
 My first two tasks, associated with [M1](https://github.com/orgs/rainbows-gallery/projects/2/views/1?layout=board), were to create an about page and a photo interact page.
 
-<img class="text-center p-4" width="500px" src="../img/about.png">
+<img class="text-center p-4" width="700px" src="../img/about.png">
 
 On the About page, one can find key information about the web application. Here we introduce the application and explain how to use it.
 
-<img class="text-center p-4" width="500px" src="../img/photo-interact-original.png">
+<img class="text-center p-4" width="700px" src="../img/photo-interact-original.png">
 
 When an image on the home page, user feed page, or profile page is clicked on the user is navigated to the photo interact page. Here the user can view the image on a larger scale and see the post's owner and caption.
 
 In the next set of tasks, associated with [M2](https://github.com/orgs/rainbows-gallery/projects/3), I implemented updates to the landing page and created a comments database system.
 
-<img class="text-center p-4" width="500px" src="../img/landing-2.png">
+<img class="text-center p-4" width="700px" src="../img/landing-2.png">
 
 On the landing page, I fixed the image spacing so that the posts were distributed evenly on the screen.
 
-<img class="text-center p-4" width="500px" src="../img/photo-interact-submitted-comment.png">
+<img class="text-center p-4" width="700px" src="../img/photo-interact-submitted-comment.png">
 
-<img class="text-center p-4" width="500px" src="../img/photo-interact-after-like-comment.png">
+<img class="text-center p-4" width="700px" src="../img/photo-interact-after-like-comment.png">
 
 To implement comment functionality, I created a database to store all the comments associated with a post and created a form to add a comment on the photo interaction page. Each comment is tagged with its owner and when it was posted. I also enable the comment's owner, the post's owner, and an admin account to delete a comment.
 
