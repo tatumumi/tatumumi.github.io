@@ -4,7 +4,7 @@ type: project
 image: img/ball1.jpeg
 title: "Bouncing a Ball"
 date: 2023 
-published: true
+published: false
 labels:
   - Physics   
   - Python
