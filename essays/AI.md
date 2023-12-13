@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "AI is the New Calculator"
+title: "Artificial Intelligence: AI is the New Calculator"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-20
 published: true

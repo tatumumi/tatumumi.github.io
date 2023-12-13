@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Patterns that Govern Us"
+title: "Design Patterns: Patterns that Govern Us"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-29
 published: true
