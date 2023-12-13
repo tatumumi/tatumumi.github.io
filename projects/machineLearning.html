@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Finding Supernovae | Tatum Umiamaka | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/tatumumi.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Tatum Umiamaka | Professional Portfolio">
+    <meta property="og:url" content="https://tatumumi.github.io/projects/machineLearning.html">
+    <meta property="og:title" content="Finding Supernovae | Tatum Umiamaka | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/tatumumi.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/bitter.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Finding Supernovae | Tatum Umiamaka | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Tatum Umiamaka</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Finding Supernovae</h1>
+ <p><img class="text-center p-4" width="400px" src="../img/STScI-01EVTA34C19C9A91CDPTB70GNS.jpeg" /></p>
+
+<p>Supernovae are luminous explosions of stars that can be seen billions of light years away.
+Scientists study these events to learn more about the history and expansion of the universe.
+The James Webb Space Telescope (JWST) was launched on December 25, 2021, and with its large 6.5-meter
+mirror and ability to measure longer wavelengths of infrared light, we can see farther into the universe
+than ever before.</p>
+
+<p>Here we trained a convolutional neural network (CNN) to spot supernovae on mock JWST data from Vela Cosmological
+Simulations. We generated two nearly identical sets of mock images, with and without noise. For every image in
+each set, we created four copies with different NIRCam bandpass filters (F115W, F150W, F277W, F444W).
+The presence and positions of the planted supernovae were randomly chosen, but consistent between each copy.
+For a sanity check, we use the set without noise as an idealized test (data for images without noise is not given).</p>
+
+<p><img class="text-center p-4" width="400px" src="../img/Screen Shot 2023-04-30 at 11.56.28 AM.png" /></p>
+
+<p>In this figure, the numbers above each image contain information regarding whether a supernova was planted or not and the network’s best guess at if one was present. The right-most number indicates if a supernova was planted on the image. The number 0 indicates that no supernova was planted and the number 1 indicates that one was. The left-most number represents the network’s prediction of there being a supernova. Values closer to 1 tell us that the network found a higher probability of there being a supernova, while smaller numbers indicate a lower probability.</p>
+
+<p><img class="text-center p-4" width="450px" src="../img/Screen Shot 2023-08-27 at 6.57.19 PM.png" /></p>
+
+<p>Here we display the efficiency of our CNN in a confusion matrix. We found that our network did not identify a supernova when none was planted with a 0.98 percent accuracy (top right), identified a supernova when none was planted with a 0.02 percent accuracy (top left), did not identify a supernova when one was planted with a 0.02 percent accuracy (bottom right corner) and finally did identify a supernova when one was planted (bottom left). Our results do suggest that the network is efficient at spotting supernovae on images of galaxies.</p>
+
+<p>This project is a part of the current research I am conducting with Dr. David Rubin. I got the opportunity to present these findings at the Undergraduate Showcase at the University of Hawaii at Manoa.</p>
+
+<p><a href="https://github.com/tatumumi/JWST_Machine_Learning">CLICK HERE</a> to go to GitHub repository.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

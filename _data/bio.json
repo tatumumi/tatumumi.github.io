@@ -1,0 +1,118 @@
+{
+  "basics": {
+    "name": "Tatum Umiamaka",
+    "label": "Student",
+    "picture": "https://github.com/tatumumi.png",
+    "email": "tatumumi@hawaii.edu",
+    "phone": "719-641-9258",
+    "website": "https://tatumumi.github.io",
+    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences and a B.S. in Astrophysics in the Department of Physics and Astronomy at the University of Hawaii at Mānoa. I expect to graduate in Spring, 2025.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "tatumumi", "url": "http://github.com/tatumumi" },
+      { "network": "linkedin", "username": "tatum-umiamaka", "url": "https://linkedin.com/in/tatum-umiamaka" }
+    ]
+  },
+  "interests": [
+    { "name": "Machine Learning" },
+    { "name": "Data Science" },
+    { "name": "Simulations" },
+    { "name": "Astronomy" },
+    { "name": "Instrumentation" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "JavaScript","Python", "HTML", "CSS"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": ["Eclipse", "MacOS", "Git/GitHub", "Spyder", "Jupyter Notebook", "IntelliJ"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii at Mānoa, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.A.",
+      "startDate": "2020-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of Hawaii at Mānoa, Honolulu, HI",
+      "area": "Astrophysics (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2020-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Hawaii at Mānoa Athletics",
+      "position": "Academic Mentor/Tutor",
+      "website": "https://manoa.hawaii.edu/undergrad/saas/",
+      "startDate": "2023-09-01",
+      "endDate": "Present",
+      "summary": "Tutored student-athletes in the subjects: math, chemistry, physics, and computer science.",
+      "highlights": [
+        "Taught problem-solving skills", "Content enrichment", "Communicating complex topics"
+      ]
+    },
+    {
+      "company": "University of Hawaii at Mānoa",
+      "position": "Undergraduate Student Researcher",
+      "website": "",
+      "startDate": "2021-05-01",
+      "endDate": "Present",
+      "summary": "Student researcher under the supervision of Dr. David Rubin.",
+      "highlights": [
+        "Machine Learning", "Supernova", "James Webb Space Telescope"
+      ]
+    },
+    {
+      "company": "University of Hawaii at Mānoa",
+      "position": "Undergraduate Student Researcher",
+      "website": "",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "summary": "Student researcher under the supervision of Dr. Joshua Barnes.",
+      "highlights": [
+        "Numerical simulations", "Disk galaxy mergers"
+      ]
+    },
+    {
+      "company": "Diamond Head Health Bar",
+      "position": "Barista/Cashier",
+      "website": "",
+      "startDate": "2021-08-01",
+      "endDate": "2022-08-01",
+      "summary": "Served as a cashier in the front of house and a barista making juices, smoothies, and acai bowls.",
+      "highlights": [
+        "Inventory", "Customer Service", "Opening and closing register"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Mānoa Dean's List",
+      "date": "2020-Present",
+      "awarder": "University of Hawaii at Mānoa",
+      "summary": "Undergraduate student earns a semester grade point average of 3.5 or higher based on 12 credits or more and did not receive grades of W, I, F or NC."
+    },
+    {
+      "title": "Mānoa Academic Merit Scholarship",
+      "date": "2020-Present",
+      "awarder": "University of Hawaii at Mānoa",
+      "summary": "The Mānoa Academic Merit Scholarship is an automatic $3,000 per year scholarship for first-time, degree-seeking students who enroll at UH Mānoa the following Fall semester after high school graduation."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
