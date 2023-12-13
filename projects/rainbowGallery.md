@@ -42,6 +42,7 @@ To implement comment functionality, I created a database to store all the commen
 
 My last two major tasks, associated with [M3](https://github.com/orgs/rainbows-gallery/projects/4), were to create default data and collect community feedback. To make the app appear as if it was being used I created 12 default accounts with realistic mock data. Making the app populated was important so that reviewers of the app could see how it should be used. To get community feedback, I created a [google form](https://docs.google.com/forms/d/e/1FAIpQLSfCM0gscGfqH5AJ39ZU-yCABw_cPrNb8dPhPYlrxGMVKL5V0w/viewform?usp=sf_link) for UH students to complete while testing out our application. From the responses we received, we got valuable insight into what final touches we should implement to make the app as successful as possible.
 
+
 [CLICK HERE](https://github.com/rainbows-gallery/gallery-app) to go to the organization's GitHub page. 
 
 [CLICK HERE](https://rainbows-gallery.github.io/) to learn more about this project.
