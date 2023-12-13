@@ -33,3 +33,5 @@ mission to Mars using the Runge-Kutta method and the suggested parameters.
 
 This project served as my final creative project for my computational physics class (PHYS 305). Though I found this project very difficult to complete, I learned many scientific computing skills in the process. For example, I learned how to use the Runge-Kutta method to find the trajectory of a projectile in space. I also gained experience using resources like the NASA Jet Propulsion Laboratory's (JPL) Horizons Systems ephemeris tool and NASA Ames Research Center's Trajectory Search.
 
+
+[CLICK HERE](https://github.com/tatumumi/tatumumi.github.io/raw/main/projects/FINAL.py) to download the source code. 
