@@ -10,7 +10,7 @@ labels:
   - Software Engineering
   
 ---
-<img width="600px" alt="photo" class="text-center p-4" src="../img/AI_photo.jpeg">
+<img width="1000px" alt="photo" class="text-center p-4" src="../img/gpt.webp">
 
 ## Introduction
 ### AI is the New Calculator
@@ -21,11 +21,11 @@ The benefits of using a calculator on a math problem parallel using AI to tackle
 
 ### AI in Education
 
-The introduction of a new technology into society will always come with some resistance. In most of my classes, the use of AI is either highly discouraged or not allowed. In these classes, my teachers fear that the work their students turn in is not their own. However, in my ICS 314 class, the perspective on AI is more positive. Students are `free to make use of AI to inspect code, write code, explain code, and more.
+The introduction of a new technology into society will always come with some resistance. In most of my classes, the use of AI is either highly discouraged or not allowed. In these classes, my teachers fear that the work their students turn in is not their own. However, in my ICS 314 class, the perspective on AI is more positive. Students are free to make use of AI to inspect code, write code, explain code, and more.
 
 ## My Experience with AI
 
-When my instructor notified my class that the use of AI was allowed and even encouraged, I was shocked. Below I describe my experience using AI (Chat GPT) in the course ICS 314 (Software Engineering I).
+When my instructor notified my class that the use of AI was allowed and even encouraged, I was shocked. Below I describe my experience using AI ([Chat GPT](https://chat.openai.com/)) in the course ICS 314 (Software Engineering I).
 
 #### Experience WODs
 Given my experience WODs were only graded upon completion I did not find myself heavily relying on AI tools to complete them. Most of the time I would try to complete the WOD as best as I could once (using AI if needed), reference the instructional video, and then try again. For some experiences, however, I did find AI to be very useful to write simple bulk code.
