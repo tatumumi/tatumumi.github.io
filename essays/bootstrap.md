@@ -6,7 +6,7 @@ title: "Bootstrap: Is the Extra Help Worth it?"
 date: 2023-10-04
 published: true
 labels:
-  - UI Frameworkds
+  - UI Frameworks
   - Bootstrap
   - Web Pages
   
@@ -38,7 +38,7 @@ The first two WODs we were assigned required us to create web pages based on a s
 <em>Remake</em>
 </p>
 
-After completing the third and final WOD, I am confident in my ability to implement various features and layouts. I am also thankful for what Bootstrap helps me create; I do not think I would have been able to create such a sophisticated web page without it. 
+After completing the third and final WOD, I am confident in my ability to implement various features and layouts. I am also thankful for what Bootstrap helps me create; I do not think I would have been able to create such a sophisticated web page without it.
 
 ## Final Thoughts
-I think that using a UI framework is very advantageous for beginner software developers. They provide you with tools to create complicated sites in a relatively short amount of time. With more practice, I think using a combination of your own CSS code with Bootstrap would be favorable. This way you can create sites with your own artistic vision in an efficient way. 
+I think that using a UI framework is very advantageous for beginner software developers. They provide you with tools to create complicated sites in a relatively short amount of time. With more practice, I think using a combination of your own CSS code with Bootstrap would be favorable. This way you can create sites with your own artistic vision efficiently. 

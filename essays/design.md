@@ -16,7 +16,7 @@ A design pattern "describes a problem that occurs over and over again in our env
 
 # Design Patterns
 
-In software engineering, a design pattern is meant to explain a general design solution to a recurring design problem in object-oriented programming. It identifies the design issue, its solution, when it's needed, and its consequences. These patterns are well-tested design paradigms meant to speed up the development process, and make code more reusable/flexible.
+In software engineering, a design pattern is meant to explain a general design solution to a recurring design problem in object-oriented programming. It identifies the design issue, its solution when it's needed, and its consequences. These patterns are well-tested design paradigms meant to speed up the development process and make code more reusable/flexible.
 
 More generally we can think of a design pattern as a template or guide to doing something in the most efficient way possible. A real-world analogy (outside of software engineering) of a design pattern, is news subscription. When one subscribes to the news, they and all the other subscribers are notified whenever the news publishes something. This is analogous to the Observer pattern (or the Publish/Subscribe pattern). In the Observer Pattern, a class will hold a list of observers and when it wants to broadcast something, it calls upon a method on all observers.
 
