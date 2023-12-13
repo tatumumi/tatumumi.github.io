@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Good Questions Attract Good Answers"
+title: "Smart Questions: Good Questions Attract Good Answers"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-05
 published: true

@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "What I've Learned About Software Engineering"
+title: "Software Engineering: Reflection"
 # All dates must be YYYY-MM-DD format!
 date: 2023-12-11
 published: true

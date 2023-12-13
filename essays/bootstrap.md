@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Is the Extra Help Worth it?"
+title: "Bootstrap: Is the Extra Help Worth it?"
 # All dates must be YYYY-MM-DD format!
 date: 2023-10-04
 published: true

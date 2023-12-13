@@ -1,10 +1,10 @@
 ---
 layout: essay
 type: essay
-title: "Is JavaScript a Sport?"
+title: "JavaScript: Is JavaScript a Sport?"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-29
-published: true
+published: false
 labels:
   - JavaScript
   - Athletic Software Enigeering

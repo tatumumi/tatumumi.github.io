@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Introduction into Software Engineering"
+title: "Software Engineering: Introduction into Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-25
 published: false
