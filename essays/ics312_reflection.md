@@ -26,5 +26,5 @@ This semester, I took on a more front-end-focused role while working on my team�
 Overall, this semester helped me expand my skill set and round out my "toolbox" as a software engineer—better preparing me for future challenges and opportunities in the field.
 
 
-## Conclusion
-I am appreciative of all the concepts that software engineering has introduced me to. Many of them will help me in either my research or future courses. I look forward to continuing to expand my knowledge of software engineering over the next couple of years as I believe the field has a lot to offer. 
+## Final Thoughts
+I’m grateful for the challenges and successes I’ve experienced this semester, as they’ve helped me grow into a more capable leader and a well-rounded software engineer. I look forward to continuing to develop my leadership abilities and expanding my skill set—whether that journey continues within a university setting or out in the real world.
