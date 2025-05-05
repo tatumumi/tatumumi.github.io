@@ -2,12 +2,13 @@
 layout: essay
 type: essay
 title: "Software Engineering II: Reflection"
-# All dates must be YYYY-MM-DD format!
 date: 2024-05-04
 published: true
 labels:
   - Reflection
-  - Software Engineering
+  - Software Engineering II
+  - Teamwork
+
   
 ---
 ### Introduction
