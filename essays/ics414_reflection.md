@@ -12,7 +12,7 @@ labels:
   
 ---
 ### Introduction
-This semester, I enrolled in Software Engineering II (ICS 312), the second software engineering course offered at my university. The course was designed to simulate a real-world development environment by having students work in teams to build an application for an actual client. This experience emphasized the importance of effective communication and collaboration within a group setting. Adding to the challenge, no predefined group structure was provided—students were responsible for organizing their own teams. This included establishing accountability, scheduling regular meetings, and planning tasks throughout the semester.
+This semester, I enrolled in Software Engineering II (ICS 414), the second software engineering course offered at my university. The course was designed to simulate a real-world development environment by having students work in teams to build an application for an actual client. This experience emphasized the importance of effective communication and collaboration within a group setting. Adding to the challenge, no predefined group structure was provided—students were responsible for organizing their own teams. This included establishing accountability, scheduling regular meetings, and planning tasks throughout the semester.
 
 
 ### Working with a Team
