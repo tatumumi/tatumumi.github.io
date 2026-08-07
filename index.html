@@ -12,8 +12,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- Full-page background video (replaces the theme's black background) -->
+		<style>
+			html, body, #page-wrapper { background: transparent !important; }
+			#video-background {
+				position: fixed;
+				top: 0; left: 0;
+				width: 100vw; height: 100vh;
+				overflow: hidden;
+				z-index: -2;
+				background: #000;
+			}
+			#video-background iframe {
+				position: absolute;
+				top: 50%; left: 50%;
+				width: 100vw; height: 56.25vw; /* 16:9 */
+				min-height: 100vh; min-width: 177.78vh; /* 16:9 */
+				transform: translate(-50%, -50%);
+				pointer-events: none;
+			}
+			#video-background-overlay {
+				position: fixed;
+				top: 0; left: 0;
+				width: 100vw; height: 100vh;
+				background: rgba(0,0,0,0.5);
+				z-index: -1;
+			}
+			#banner, #one, #four, #five, #footer { background: transparent !important; }
+		</style>
 	</head>
 	<body class="is-preload landing">
+		<div id="video-background">
+			<iframe
+				src="https://www.youtube.com/embed/qPbS_mBFAkg?autoplay=1&mute=1&loop=1&playlist=qPbS_mBFAkg&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3"
+				title="Background video"
+				frameborder="0"
+				allow="autoplay; encrypted-media"
+				allowfullscreen>
+			</iframe>
+		</div>
+		<div id="video-background-overlay"></div>
 		<div id="page-wrapper">
 			<!-- Header -->
 				<header id="header">
