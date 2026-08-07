@@ -51,7 +51,16 @@
 				background-image: none !important;
 				background-color: rgba(0,0,0,0.35) !important;
 			}
-			/* Explore and Footer keep their normal panel backgrounds */
+			/* The theme puts a dark grain/vignette overlay on every .image element
+			   (main.css .image:before, images/overlay.png) -- that's what was making
+			   the banner photo look washed out. Strip it just for the avatar photo. */
+			#banner .content .image:before {
+				display: none !important;
+			}
+			/* Explore section: swap the theme's pink accent for a deep space blue */
+			#explore {
+				background: #0b1f3a !important;
+			}
 		</style>
 	</head>
 	<body class="is-preload landing">
