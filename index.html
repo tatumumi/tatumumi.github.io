@@ -61,6 +61,38 @@
 			#explore {
 				background: #0b1f3a !important;
 			}
+			/* Astronomy blue accent -- replaces the theme's pink/red hover + primary-button color */
+			a:hover {
+				color: #7ec8ff !important;
+				border-bottom-color: transparent;
+			}
+			.button:hover, .button:active,
+			input[type="submit"]:hover, input[type="submit"]:active,
+			input[type="reset"]:hover, input[type="reset"]:active,
+			input[type="button"]:hover, input[type="button"]:active {
+				box-shadow: inset 0 0 0 1px #7ec8ff, 0 0 10px 1px rgba(126, 200, 255, 0.6) !important;
+				color: #7ec8ff !important;
+			}
+			.button.primary,
+			input[type="submit"].primary,
+			input[type="reset"].primary,
+			input[type="button"].primary {
+				background-color: #1f6fd1 !important;
+				box-shadow: none !important;
+				color: #ffffff !important;
+			}
+			.button.primary:hover, .button.primary:active,
+			input[type="submit"].primary:hover, input[type="submit"].primary:active,
+			input[type="reset"].primary:hover, input[type="reset"].primary:active,
+			input[type="button"].primary:hover, input[type="button"].primary:active {
+				background-color: #4f9bff !important;
+				box-shadow: 0 0 14px 2px rgba(79, 155, 255, 0.8) !important;
+				color: #ffffff !important;
+			}
+			.dropotron > li.active > a, .dropotron > li.active > span,
+			#header nav ul li.active > a, #header nav ul li.active > span {
+				color: #7ec8ff !important;
+			}
 		</style>
 	</head>
 	<body class="is-preload landing">
@@ -79,7 +111,7 @@
 
 			function onYouTubeIframeAPIReady() {
 				ytPlayer = new YT.Player('yt-player', {
-					videoId: 'qPbS_mBFAkg',
+					videoId: 'UNOmaFs6KaY',
 					playerVars: {
 						autoplay: 1,
 						mute: 1,
@@ -102,8 +134,9 @@
 								// wait for the brief play-icon animation to finish fading, then reveal
 								setTimeout(function () { ytBg.classList.add('is-playing'); }, 500);
 							} else if (e.data === YT.PlayerState.ENDED) {
-								// loop manually (avoids the "replay" end-screen flash)
-								e.target.seekTo(0);
+								// loop manually, skipping back to 5s in rather than 0 (avoids the
+								// "replay" end-screen flash AND the first 5s of the source clip)
+								e.target.seekTo(5);
 								e.target.playVideo();
 							}
 						}
@@ -137,7 +170,7 @@
 							<h2>Tatum Umiamaka</h2>
 							<p>Aloha kākou</p>
 						</header>
-						<span class="image"><img src="images/bio_pic.png" alt="Tatum at sunrise on Maunakea" /></span>
+						<span class="image"><img src="images/bio_pic.jpg" alt="Tatum at sunrise on Maunakea" /></span>
 					</div>
 					<a href="#explore" class="goto-next scrolly">Next</a>
 				</section>
