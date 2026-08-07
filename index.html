@@ -12,33 +12,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<!-- Full-page background video (replaces the theme's black background) -->
+		<!-- Full-page background image (replaces the theme's black background) -->
 		<style>
 			html, body, #page-wrapper { background: transparent !important; }
-			#video-background {
+			#hero-background {
 				position: fixed;
 				top: 0; left: 0;
 				width: 100vw; height: 100vh;
-				overflow: hidden;
 				z-index: -2;
-				background: #000;
+				background-image: url('images/stars-bg.jpg');
+				background-size: cover;
+				background-position: center center;
+				background-attachment: fixed;
 			}
-			#video-background video {
-				position: absolute;
-				top: 50%; left: 50%;
-				width: 100%; height: 100%;
-				object-fit: cover;
-				transform: translate(-50%, -50%);
-				pointer-events: none;
-			}
-			#video-background-overlay {
+			#hero-overlay {
 				position: fixed;
 				top: 0; left: 0;
 				width: 100vw; height: 100vh;
 				background: rgba(0,0,0,0.5);
 				z-index: -1;
 			}
-			/* Let the video show through the banner (drop its dark backdrop image + heavy overlay) */
+			/* Let the photo show through the banner (drop its dark backdrop image + heavy overlay) */
 			#banner {
 				background: transparent !important;
 			}
@@ -46,19 +40,22 @@
 				background-image: none !important;
 				background-color: rgba(0,0,0,0.35) !important;
 			}
-			/* The theme puts a dark grain/vignette overlay on every .image element
-			   (main.css .image:before, images/overlay.png) -- that's what was making
-			   the banner photo look washed out. Strip it just for the avatar photo. */
-			#banner .content .image:before {
-				display: none !important;
+			/* Center the name + bio now that the avatar photo is gone */
+			#banner .content {
+				text-align: center !important;
+			}
+			#banner .content header p {
+				max-width: 42em;
+				margin-left: auto;
+				margin-right: auto;
 			}
 			/* Explore section: swap the theme's pink accent for a deep space blue */
 			#explore {
-				background: #1C275C !important;
+				background: #141D31 !important;
 			}
 			/* Astronomy blue accent -- replaces the theme's pink/red hover + primary-button color */
 			a:hover {
-				color: #9A6284 !important;
+				color: #7ec8ff !important;
 				border-bottom-color: transparent;
 			}
 			.button:hover, .button:active,
@@ -91,12 +88,8 @@
 		</style>
 	</head>
 	<body class="is-preload landing">
-		<div id="video-background">
-			<video autoplay muted loop playsinline>
-				<source src="video/bio-bg.mp4" type="video/mp4" />
-			</video>
-		</div>
-		<div id="video-background-overlay"></div>
+		<div id="hero-background"></div>
+		<div id="hero-overlay"></div>
 		<div id="page-wrapper">
 			<!-- Header -->
 				<header id="header">
@@ -121,12 +114,8 @@
 					<div class="content">
 						<header>
 							<h2>Tatum Umiamaka</h2>
-							<p>Aloha kākou, I'm Tatum Umiamaka. I graduated from the University of Hawai'i at Mānoa in 2025 with a B.S. in Astrophysics and a B.A. in Information & Computer Sciences. 
-								I'm now pursuing my Ph.D. at Caltech, advised by Dimitri Mawet in the Exoplanet Technology (ET) Lab. 
-								My research interests include high-contrast imaging techniques (vortex fiber nulling), giant exoplanets, adaptive optics, and scientific software.</p>
-							<p></p>
+							<p>Aloha kākou, I'm Tatum Umiamaka. I graduated from the University of Hawai'i at Mānoa in 2025 with a B.S. in Astrophysics and a B.A. in Information &amp; Computer Sciences. I'm now pursuing my Ph.D. at Caltech, advised by Dimitri Mawet in the Exoplanet Technology (ET) Lab. My research interests include high-contrast imaging techniques (vortex fiber nulling), giant exoplanets, adaptive optics, and scientific software.</p>
 						</header>
-						<span class="image"><img src="images/bio_pic.png" alt="Tatum at sunrise on Maunakea" /></span>
 					</div>
 					<a href="#explore" class="goto-next scrolly">Next</a>
 				</section>
@@ -141,7 +130,7 @@
 							<li><a href="about.html" class="button">About Me</a></li>
 							<li><a href="research.html" class="button">Research</a></li>
 							<li><a href="mentors.html" class="button">Mentors</a></li>
-							<li><a href="cv.html" class="button">CV</a></li>
+							<li><a href="cv.html" class="button primary">CV</a></li>
 						</ul>
 					</div>
 				</section>
