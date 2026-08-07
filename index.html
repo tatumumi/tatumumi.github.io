@@ -22,6 +22,11 @@
 				overflow: hidden;
 				z-index: -2;
 				background: #000;
+				opacity: 0;
+				transition: opacity 0.8s ease;
+			}
+			#video-background.is-playing {
+				opacity: 1;
 			}
 			#video-background iframe {
 				position: absolute;
@@ -51,15 +56,52 @@
 	</head>
 	<body class="is-preload landing">
 		<div id="video-background">
-			<iframe
-				src="https://www.youtube.com/embed/qPbS_mBFAkg?autoplay=1&mute=1&loop=1&playlist=qPbS_mBFAkg&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3"
-				title="Background video"
-				frameborder="0"
-				allow="autoplay; encrypted-media"
-				allowfullscreen>
-			</iframe>
+			<div id="yt-player"></div>
 		</div>
 		<div id="video-background-overlay"></div>
+		<!-- YouTube IFrame API: loads the player via JS so we can hold it hidden
+		     until it's actually playing, instead of showing the paused/play-icon
+		     flash that appears right when a plain autoplay iframe loads. -->
+		<script>
+			var ytPlayer, ytBg = document.getElementById('video-background');
+			var tag = document.createElement('script');
+			tag.src = "https://www.youtube.com/iframe_api";
+			document.head.appendChild(tag);
+
+			function onYouTubeIframeAPIReady() {
+				ytPlayer = new YT.Player('yt-player', {
+					videoId: 'qPbS_mBFAkg',
+					playerVars: {
+						autoplay: 1,
+						mute: 1,
+						controls: 0,
+						disablekb: 1,
+						playsinline: 1,
+						modestbranding: 1,
+						rel: 0,
+						showinfo: 0,
+						iv_load_policy: 3,
+						fs: 0
+					},
+					events: {
+						onReady: function (e) {
+							e.target.mute();
+							e.target.playVideo();
+						},
+						onStateChange: function (e) {
+							if (e.data === YT.PlayerState.PLAYING) {
+								// wait for the brief play-icon animation to finish fading, then reveal
+								setTimeout(function () { ytBg.classList.add('is-playing'); }, 500);
+							} else if (e.data === YT.PlayerState.ENDED) {
+								// loop manually (avoids the "replay" end-screen flash)
+								e.target.seekTo(0);
+								e.target.playVideo();
+							}
+						}
+					}
+				});
+			}
+		</script>
 		<div id="page-wrapper">
 			<!-- Header -->
 				<header id="header">
@@ -86,7 +128,7 @@
 							<h2>Tatum Umiamaka</h2>
 							<p>Aloha kākou</p>
 						</header>
-						<span class="image"><img src="images/bio_pic.png" alt="Tatum at sunrise on Maunakea" /></span>
+						<span class="image"><img src="images/bio_pic.jpg" alt="Tatum at sunrise on Maunakea" /></span>
 					</div>
 					<a href="#explore" class="goto-next scrolly">Next</a>
 				</section>
