@@ -7,6 +7,7 @@
 -->
 <html>
 	<head>
+		<title>Tatum Umiamaka</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -37,7 +38,15 @@
 				background: rgba(0,0,0,0.5);
 				z-index: -1;
 			}
-			#banner, #one, #four, #five, #footer { background: transparent !important; }
+			/* Let the video show through the banner (drop its dark backdrop image + heavy overlay) */
+			#banner {
+				background: transparent !important;
+			}
+			#banner:after {
+				background-image: none !important;
+				background-color: rgba(0,0,0,0.35) !important;
+			}
+			/* Explore and Footer keep their normal panel backgrounds */
 		</style>
 	</head>
 	<body class="is-preload landing">
@@ -79,89 +88,20 @@
 						</header>
 						<span class="image"><img src="images/bio_pic.jpg" alt="Tatum at sunrise on Maunakea" /></span>
 					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
+					<a href="#explore" class="goto-next scrolly">Next</a>
 				</section>
-			<!-- One -->
-				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/tatum-akamai-team.jpg" alt="Tatum with the Akamai Internship team at the W.M. Keck Observatory" /></span>
-					<div class="content">
-						<div class="container">
-							<div class="row">
-								<div class="col-4 col-12-medium">
-									<header>
-										<h2>From Maunakea to Caltech</h2>
-										<p>Instrumentation, optics, and a lot of curiosity</p>
-									</header>
-								</div>
-								<div class="col-4 col-12-medium">
-									<p>I'm a rising second-year Astronomy Ph.D. student at Caltech. I earned my B.S. in Astrophysics and B.A. in Information &amp; Computer Sciences at the University of Hawai'i at Mānoa, where I first got hooked on instrumentation as an Akamai Intern at the W.M. Keck Observatory.</p>
-								</div>
-								<div class="col-4 col-12-medium">
-									<p>My research interests are in astronomical instrumentation and optical engineering, with a focus on adaptive optics. Outside of research, I enjoy lei making, rug making, painting, and spending time in the ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>
-			<!-- Four -->
-				<section id="four" class="wrapper style1 special fade-up">
-					<div class="container">
-						<header class="major">
-							<h2>A Quick Overview</h2>
-							<p>Highlights from my research, education, and outreach</p>
-						</header>
-						<div class="box alt">
-							<div class="row gtr-uniform">
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-chart-area"></span>
-									<h3>Research Interests</h3>
-									<p>Astronomical instrumentation and optical engineering, with a focus on adaptive optics.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-flask"></span>
-									<h3>Research Experience</h3>
-									<p>AO calibration at Keck Observatory, N-body simulations of disc galaxy mergers, and ML-based supernovae detection with JWST.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-file"></span>
-									<h3>Publications</h3>
-									<p>Umiamaka &amp; Barnes, "Effects of Halo Anisotropy in Simulated Mergers of Disc Galaxies," in preparation for MNRAS.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-comment"></span>
-									<h3>Outreach</h3>
-									<p>Bishop Museum After Hours, IfA Open House, Waimea Solar System Walk, and the PISCES STAR Program.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-paper-plane"></span>
-									<h3>Awards &amp; Honors</h3>
-									<p>Dean's List, Mānoa Academic Merit Scholarship, and Akamai Internship Participant.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-lock"></span>
-									<h3>Skills</h3>
-									<p>Python, Java, C, JavaScript, MATLAB, LaTeX, ds9, Git, and RST/Sphinx documentation.</p>
-								</section>
-							</div>
-						</div>
-						<footer class="major">
-							<ul class="actions special">
-								<li><a href="research.html" class="button">See My Research</a></li>
-							</ul>
-						</footer>
-					</div>
-				</section>
-			<!-- Five -->
-				<section id="five" class="wrapper style2 special fade">
+			<!-- Explore -->
+				<section id="explore" class="wrapper style2 special fade">
 					<div class="container">
 						<header>
-							<h2>Let's Connect</h2>
-							<p>Reach out about research, mentorship, or just to talk astronomy</p>
+							<h2>Explore</h2>
+							<p>My background, research, mentors, and CV</p>
 						</header>
 						<ul class="actions special">
-							<li><a href="mailto:tumiamak@caltech.edu" class="button primary">Email Me</a></li>
-							<li><a href="cv.html" class="button">View My CV</a></li>
+							<li><a href="about.html" class="button">About Me</a></li>
+							<li><a href="research.html" class="button">Research</a></li>
+							<li><a href="mentors.html" class="button">Mentors</a></li>
+							<li><a href="cv.html" class="button primary">CV</a></li>
 						</ul>
 					</div>
 				</section>
