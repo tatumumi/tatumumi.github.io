@@ -22,17 +22,12 @@
 				overflow: hidden;
 				z-index: -2;
 				background: #000;
-				opacity: 0;
-				transition: opacity 0.8s ease;
 			}
-			#video-background.is-playing {
-				opacity: 1;
-			}
-			#video-background iframe {
+			#video-background video {
 				position: absolute;
 				top: 50%; left: 50%;
-				width: 100vw; height: 56.25vw; /* 16:9 */
-				min-height: 100vh; min-width: 177.78vh; /* 16:9 */
+				width: 100%; height: 100%;
+				object-fit: cover;
 				transform: translate(-50%, -50%);
 				pointer-events: none;
 			}
@@ -59,7 +54,7 @@
 			}
 			/* Explore section: swap the theme's pink accent for a deep space blue */
 			#explore {
-				background: #0b1f3a !important;
+				background: #141D31 !important;
 			}
 			/* Astronomy blue accent -- replaces the theme's pink/red hover + primary-button color */
 			a:hover {
@@ -97,53 +92,11 @@
 	</head>
 	<body class="is-preload landing">
 		<div id="video-background">
-			<div id="yt-player"></div>
+			<video autoplay muted loop playsinline>
+				<source src="images/bio-bg.mp4" type="images/mp4" />
+			</video>
 		</div>
 		<div id="video-background-overlay"></div>
-		<!-- YouTube IFrame API: loads the player via JS so we can hold it hidden
-		     until it's actually playing, instead of showing the paused/play-icon
-		     flash that appears right when a plain autoplay iframe loads. -->
-		<script>
-			var ytPlayer, ytBg = document.getElementById('video-background');
-			var tag = document.createElement('script');
-			tag.src = "https://www.youtube.com/iframe_api";
-			document.head.appendChild(tag);
-
-			function onYouTubeIframeAPIReady() {
-				ytPlayer = new YT.Player('yt-player', {
-					videoId: 'UNOmaFs6KaY',
-					playerVars: {
-						autoplay: 1,
-						mute: 1,
-						controls: 0,
-						disablekb: 1,
-						playsinline: 1,
-						modestbranding: 1,
-						rel: 0,
-						showinfo: 0,
-						iv_load_policy: 3,
-						fs: 0
-					},
-					events: {
-						onReady: function (e) {
-							e.target.mute();
-							e.target.playVideo();
-						},
-						onStateChange: function (e) {
-							if (e.data === YT.PlayerState.PLAYING) {
-								// wait for the brief play-icon animation to finish fading, then reveal
-								setTimeout(function () { ytBg.classList.add('is-playing'); }, 500);
-							} else if (e.data === YT.PlayerState.ENDED) {
-								// loop manually, skipping back to 5s in rather than 0 (avoids the
-								// "replay" end-screen flash AND the first 5s of the source clip)
-								e.target.seekTo(5);
-								e.target.playVideo();
-							}
-						}
-					}
-				});
-			}
-		</script>
 		<div id="page-wrapper">
 			<!-- Header -->
 				<header id="header">
@@ -170,7 +123,7 @@
 							<h2>Tatum Umiamaka</h2>
 							<p>Aloha kākou</p>
 						</header>
-						<span class="image"><img src="images/bio_pic.jpg" alt="Tatum at sunrise on Maunakea" /></span>
+						<span class="image"><img src="images/bio_pic.png" alt="Tatum at sunrise on Maunakea" /></span>
 					</div>
 					<a href="#explore" class="goto-next scrolly">Next</a>
 				</section>
@@ -185,7 +138,7 @@
 							<li><a href="about.html" class="button">About Me</a></li>
 							<li><a href="research.html" class="button">Research</a></li>
 							<li><a href="mentors.html" class="button">Mentors</a></li>
-							<li><a href="cv.html" class="button">CV</a></li>
+							<li><a href="cv.html" class="button primary">CV</a></li>
 						</ul>
 					</div>
 				</section>
